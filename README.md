@@ -1,5 +1,5 @@
 
-# Neovim-config
+# neovim-config
 This is my neovim config for Ruby On Rails web development(at least for now).
 
 ## Basic keymap
