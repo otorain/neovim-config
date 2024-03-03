@@ -27,31 +27,31 @@ require("lazy").setup({
     "vim-ruby/vim-ruby",
 
     -- Telescope (https://github.com/nvim-telescope/telescope.nvim)
-    { 
+    {
         "nvim-telescope/telescope.nvim",
         dependencies = { 'nvim-lua/plenary.nvim' }
     },
-    
+
     -- File tree (https://github.com/nvim-tree/nvim-tree.lua)
     "nvim-tree/nvim-tree.lua",
     "nvim-tree/nvim-web-devicons",
-    
-    -- Git status 
+
+    -- Git status
     "lewis6991/gitsigns.nvim",
-    
+
     -- Ruby slim template support (https://github.com/slim-template/vim-slim)
     -- "slim-template/vim-slim",
-    
+
     -- Theme (https://github.com/ellisonleao/gruvbox.nvim)
     "ellisonleao/gruvbox.nvim",
-    
+
     -- Auto complete brackets (https://github.com/windwp/nvim-autopairs)
     {
         'windwp/nvim-autopairs',
         event = "InsertEnter",
         opts = {}
     },
-    
+
     -- HTML emmet (https://github.com/mattn/emmet-vim)
     'mattn/emmet-vim',
 
@@ -65,7 +65,7 @@ require("lazy").setup({
     {
         "nvim-treesitter/nvim-treesitter",
         build = ":TSUpdate",
-        config = function () 
+        config = function ()
           local configs = require("nvim-treesitter.configs")
 
           configs.setup({
@@ -73,22 +73,29 @@ require("lazy").setup({
               sync_install = false,
               highlight = { enable = true },
               endwise = { enable = true },
-              indent = { enable = true },  
+              indent = { enable = true },
             })
         end
     },
-    
+
     -- tab (https://github.com/akinsho/bufferline.nvim)
     'akinsho/bufferline.nvim',
 
     -- Ace jump alternative (https://github.com/hadronized/hop.nvim)
     'phaazon/hop.nvim',
-    
+
     -- Auto save (https://github.com/pocco81/auto-save.nvim)
     'pocco81/auto-save.nvim',
 
     -- Indent line (https://github.com/lukas-reineke/indent-blankline.nvim)
-    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} }
+    { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
+
+    -- Code snippets
+    {
+        "L3MON4D3/LuaSnip",
+        version = "v2.*",
+        build = "make install_jsregexp"
+    }
 })
 
 require('global')
@@ -99,5 +106,7 @@ require('config.gitsigns')
 require('config.lualine')
 require('config.formatter')
 require('config.bufferline')
+require('config.lua-snip')
 require('config.hop')
+require('config.trim-space')
 require('themes.gruvbox')
