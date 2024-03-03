@@ -90,7 +90,7 @@ require("lazy").setup({
     -- Indent line (https://github.com/lukas-reineke/indent-blankline.nvim)
     { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
 
-    -- Code snippets
+    -- Code snippets (https://github.com/L3MON4D3/LuaSnip)
     {
         "L3MON4D3/LuaSnip",
         version = "v2.*",
