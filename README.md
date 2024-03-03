@@ -15,7 +15,10 @@ This is my neovim config for Ruby On Rails web development(at least for now).
 - Global file search by filename: `<leader>ff`
 - Global file search by content: `<leader>fg`
 - List buffers: `<leader>fb`
-- Emmet complete: `<C-y>,`
-- Ace Jump(bottom): `t`
-- Ace Jump(top): `T`
+- Emmet completion: `<C-y>,`
+- Ace Jump(bottom): `<leader>t`
+- Ace Jump(top): `<leader>T`
+- Snippet completion: `C-k`
+- Snippet next placeholder: `C-j`
+- Snippet previous placeholder: `C-l`
 
