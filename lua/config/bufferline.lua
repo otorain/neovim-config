@@ -3,7 +3,7 @@ require('bufferline').setup({
     options = {
         hover = {
             enabled = true,
-            delay = 50, 
+            delay = 50,
             reveal = { 'close' }
         },
         indicator = {
