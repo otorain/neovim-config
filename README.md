@@ -3,7 +3,7 @@
 This is my neovim config for Ruby On Rails web development(at least for now).
 
 ## Plugin manager
-[lazy.vim](https://github.com/folke/lazy.nvim)
+[lazy.nvim](https://github.com/folke/lazy.nvim)
 
 ## External dependencies
 - [ripgrep](https://github.com/BurntSushi/ripgrep)
