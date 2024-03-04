@@ -95,7 +95,14 @@ require("lazy").setup({
         "L3MON4D3/LuaSnip",
         version = "v2.*",
         build = "make install_jsregexp"
-    }
+    },
+
+    -- Comment (https://github.com/numToStr/Comment.nvim)
+    {
+        'numToStr/Comment.nvim',
+        opts = {},
+        lazy = false,
+    },
 })
 
 require('global')
