@@ -104,8 +104,11 @@ require("lazy").setup({
         lazy = false,
     },
 
-    -- Search and replace
+    -- Global search and replace (https://github.com/nvim-pack/nvim-spectre)
     "nvim-pack/nvim-spectre",
+
+    -- Start screen (https://github.com/mhinz/vim-startify)
+    'mhinz/vim-startify'
 })
 
 require('global')

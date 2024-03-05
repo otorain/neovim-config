@@ -21,4 +21,5 @@ This is my neovim config for Ruby On Rails web development(at least for now).
 - Snippet completion: `C-k`
 - Snippet next placeholder: `C-j`
 - Snippet previous placeholder: `C-l`
-
+- Multi-line comment/uncomment(visual mode): `<leader>gc`
+- Global search and replace: `<leader>sr`
