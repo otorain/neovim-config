@@ -103,6 +103,9 @@ require("lazy").setup({
         opts = {},
         lazy = false,
     },
+
+    -- Search and replace
+    "nvim-pack/nvim-spectre",
 })
 
 require('global')
@@ -116,4 +119,5 @@ require('config.bufferline')
 require('config.lua-snip')
 require('config.hop')
 require('config.trim-space')
+require('config.vim-spectre')
 require('themes.gruvbox')
