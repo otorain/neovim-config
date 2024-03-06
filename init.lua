@@ -108,7 +108,7 @@ require("lazy").setup({
     "nvim-pack/nvim-spectre",
 
     -- Start screen (https://github.com/mhinz/vim-startify)
-    'mhinz/vim-startify'
+    'mhinz/vim-startify',
 })
 
 require('global')
