@@ -124,3 +124,4 @@ require('config.hop')
 require('config.trim-space')
 require('config.vim-spectre')
 require('themes.gruvbox')
+
