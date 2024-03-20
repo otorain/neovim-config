@@ -109,6 +109,9 @@ require("lazy").setup({
 
     -- Start screen (https://github.com/mhinz/vim-startify)
     'mhinz/vim-startify',
+
+    -- Go language support (https://github.com/fatih/vim-go)
+    'fatih/vim-go'
 })
 
 require('global')
